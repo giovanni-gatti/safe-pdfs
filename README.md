@@ -8,16 +8,11 @@ The entire pipeline runs locally, taking advantage of GPUs when available (both 
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/giovanni-gatti/safe-pdfs.git
+   cd safe-pdfs
    ```
 
-2. Navigate to the project directory:
-
-    ```bash
-    cd 
-    ```
-
-3. Install the required dependencies (it is highly recommended to create a virtual environment):
+2. Install the required dependencies (it is highly recommended to create a virtual environment):
     ```bash
     pip install -r requirements.txt
     python -m spacy download en_core_web_trf
