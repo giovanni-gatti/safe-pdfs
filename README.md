@@ -1,7 +1,12 @@
 # PDF Parser & Anonymizer
 The code implements tools and utilities to parse PDF files using IBM's `docling` library and anonymize them using the Named Entity Recognition functionalities from `spacy`.
 
-![Pipeline](assets/output.png)
+<p align="center">
+  <img src="assets/output.png" alt="Pipeline" />
+</p>
+<p align="center">
+  Sample PDF of Alphabet's earnings report.
+</p>
 
 ## Prerequisites
 The entire pipeline runs locally, taking advantage of GPUs when available (both CUDA and MPS are supported) to speed up batch processing.
