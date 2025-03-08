@@ -175,3 +175,5 @@ cython_debug/
 .pypirc
 
 testing/
+input_folder/
+output_folder/
