@@ -1,0 +1,5 @@
+docling
+setuptools
+wheel
+spacy
+tqdm
